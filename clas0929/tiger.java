@@ -1,4 +1,4 @@
-public class tiger extends animal implements predator, bark{
+public class tiger extends predator implements bark{
     public String getFood(){
         return "apple";
     }
