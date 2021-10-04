@@ -8,7 +8,6 @@ public class ThreadEx1 {
 	 * 
 	 * 상속을 받으면 다른 클래스를 상속 받을 수 없기 때문에 Runnable 
 	 * 인터페이스 사용을 선호한다. 
-	 * 
 	 */
 	
 	public static void main(String[] args) {
