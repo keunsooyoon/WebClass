@@ -1,0 +1,132 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Knewave&display=swap');
+
+
+
+a {
+    text-decoration:none;
+}
+
+
+#container {
+margin:0 auto; 
+/* 자동 화면 중앙 배치 */
+width:1200px;
+/* 너비 지정 */
+}
+
+
+header {
+    width:100%;
+    height: 100px;
+    background-color:blue;
+}
+
+#logo {
+    float:left;
+    /* 로고를 왼쪽에 */
+    width: 250px;
+    height: 100px;
+    padding-left:30px;
+    line-height:30px;
+}
+
+#logo h1{
+    font-family: 'Bungee Shade', cursive;
+    color:ghostwhite;
+    font-size:40px;
+    font-weight:700;
+}
+
+nav {
+    float:right;
+    width:900px;
+    height:100px;
+    padding-top: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+#topMenu{
+    height:60px;
+}
+
+#topMenu > li {
+    float:left;
+    position: relative;
+}
+
+#topMenu > li > a{
+    display:block;
+    color:#fff;
+    font-weight:600;
+    padding: 20px 60px;
+}
+
+#topMenu > li > a > span{
+    font-size : 0.5em;
+} 
+
+#topMenu > li > a:hover {
+    color:darkgrey;
+}
+
+#topMenu > li > ul {
+    display: none;
+    position:absolute;
+    width:160px;
+    background-color: beige;
+}
+
+#topMenu > li > ul > li {
+    padding: 10px, 10px, 10px, 10px;
+}
+#topMenu > li > ul > li > a{
+    font-size : 14px;
+    padding : 10px;
+    color:black;
+}
+#topMenu > li:hover > ul {
+    display: block;
+    z-index:10;
+}
+
+#topMenu > li > ul > li > a:hover {
+    color:darkgrey;
+}
+
+#slideShow {
+    clear:both;
+    /* 플로팅 해제 */
+    width:100%;
+    height:300px;
+    background-color: darkorange;
+}
+
+#contents{
+    width:100%;
+    height:300px;
+}
+
+#tabMenu{
+    float:left;
+    width:600px;
+    height:100%;
+    background-color: darkviolet;
+}
+
+#links {
+    float:right;
+    width:600px;
+    height:100%;
+    background-color: antiquewhite;
+}
+
+footer {
+    width:100%;
+    height:100px;
+    background-color: gold;
+}
